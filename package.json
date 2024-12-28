@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
     "start:dev": "SET NODE_ENV=development&&nodemon server.js",
-    "start:prod": "SET NODE_ENV=production&&nodemon server.js"
+    "start:prod": "SET NODE_ENV=production&&nodemon server.js",
+    "debug": "ndb server.js"
   },
   "author": "Abhishek Gupta",
   "license": "ISC",
@@ -27,9 +28,11 @@
     "morgan": "^1.10.0",
     "prettier": "^3.4.2",
     "slugify": "^1.6.6",
-    "update": "^0.7.4"
+    "update": "^0.7.4",
+    "validators": "^0.3.1"
   },
   "devDependencies": {
+    "ndb": "^1.1.5",
     "nodemon": "^3.1.7"
   },
   "engines": {
